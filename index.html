@@ -17,6 +17,18 @@
   <meta name="theme-color" content="#ff00ff">
   <meta NAME="Description" CONTENT="There is no one like Pebbles.">
   <meta name="keywords" content="jpbbls, jason, pebbles, jason pebbles, pictures by pebbles">
+  <meta name="google-site-verification" content="oHfMxBFjVNYZ6ruPA-8lo6w2U1N39wlHLCV4Lv4-og0" />
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Open-source framework for publishing content",
+      "datePublished": "2015-10-07T12:02:41Z",
+      "image": [
+        "logo.jpg"
+      ]
+    }
+  </script>
   <style type="text/css">
     html,
     body,
@@ -43,12 +55,12 @@
 
     .social-links {
       font-family: monospace;
-      float:right;
+      float: right;
       text-align: right;
     }
 
     header {
-      padding: 20em 1em 10em 1em;
+      padding: 12em 1em 10em 1em;
     }
 
     .columns {
@@ -72,13 +84,28 @@
       }
 
     }
-.cyan{
-    background: #00ffff;
-}
+
+    .cyan {
+      background: #00ffff;
+    }
+
+    .magenta {
+      background: #ff00ff;
+    }
+
+    .yellow {
+      background: #ffff00;
+    }
+
+    .key {
+      background: #000000;
+      color: #ffffff
+    }
+
     .aside {
       padding: 1em;
       padding: 2em;
-      flex: 1 1 20%;
+      max-width: 100%;
     }
 
     .aside-title {
@@ -117,45 +144,37 @@
       padding: 0 1em;
     }
 
-    @media(min-width:30em) {
+    @media(max-width:30em) {
       html {
         font-size: 130%;
       }
     }
 
-    @media(min-width:60em) {
+    @media(max-width:60em) {
       html {
-        font-size: 135%;
+        font-size: 110%;
       }
     }
 
-    @media(min-width:120em) {
+    @media(max-width:120em) {
+      body,
       html {
-        font-size: 160%
+        font-size: 110%;
+        max-width: 90%;
       }
     }
 
-    @media screen and (min-width: 120em) {
-      body {
-        max-width: 80%
-      }
     }
 
-    @media screen and (min-width: 60em) {
+    @media screen and (max-width: 60em) {
       .columns .column {
         margin-bottom: 1em;
-        flex-basis: 40%;
-        &:nth-last-child(2) {
-          margin-right: 0;
-        }
-        &:last-child {
-          flex-basis: 100%;
-          margin: 0;
-        }
+        flex-basis: 100%;
+        margin: 0 0 1em 0;
       }
     }
 
-    @media screen and (max-width: 40em) {
+    @media screen and (max-width: 60em) {
       body {
         max-width: 100%;
       }
@@ -165,8 +184,7 @@
       }
     }
 
-    .social-links >
-    ul,
+    .social-links>ul,
     li,
     #a {
       text-align: right;
@@ -179,6 +197,7 @@
     .super {
       font-size: 2em
     }
+
     .meta-foota {
       text-align: center;
 
@@ -195,7 +214,7 @@
 
       <div class="column">
         <a><h2>You can call me "Pebbles."</h2></a>
-        <p>I'm not an  agency, brand<em>"...job title or the contents of my wallet."</em></p>
+        <p>I'm not an agency, brand<em>"...job title or the contents of my wallet."</em></p>
         <p>I'm all about simplicty, good vibes, and work with purpose.</p>
       </div>
 
@@ -209,12 +228,33 @@
         <p>You're here for a reason right?</p>
       </div>
     </div>
-    <div class="aside cyan">
+    <div class="aside key">
 
       <h1 class="aside-title">
-      >Getting new headshots doesn't have to be a pain in  the butt.
+      >pick your poison
       </h1>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <a><h2>RESUMES</h2></a>
+        <h3><em>+3 INT</em></h3>
+        <p>Unique resumes.</p><p>Crafted out of thin air.<p><em>(I don't use templates, because it doesn't challenge me as a designer.)</em></p>
+      </div>
 
+      <div class="column">
+        <h2>HEADSHOTS</h2>
+        <h3><em>+4 CHAR</em></h3>
+
+        <p>Streamlined booking process.</p>
+      </div>
+      <div class="column">
+        <h2>WEB DESIGN?</h2>
+        <h3><em>+3 DEX</em></h3>
+        <h3><em>+3 STA</em></h3>
+
+        <p>Lightning fast sites.</p>
+      </div>
+    </div>
     </div>
 
     <footer>
@@ -230,7 +270,6 @@
         <li><a href="#"<i class="fab fa-google"></i></a></li>
         <li><a href="#"<i class="fab fa-facebook"></i></a></li>
         <li><a href="#"<i class="fab fa-instagram"></i></a></li>
-
       </h1 ul>
       </div>
     </footer>
